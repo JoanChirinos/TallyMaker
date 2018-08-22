@@ -48,6 +48,9 @@ def go():
     btntypes = ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'lighht', 'dark']
     on = -1
     for i in choices:
+        if (i == "Next") {
+            continue;
+        }
         on += 1
         on %= 8
         btn = btntypes[on]
