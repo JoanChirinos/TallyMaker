@@ -26,3 +26,8 @@ function enteredChoices() {
     console.log(toPlaceInInputArea);
     doc.innerHTML = toPlaceInInputArea;
 }
+
+function buttonClick(i) {
+    var num = parseInt(document.getElementById(i).value);
+    document.getElementById(i).value = (num + 1);
+}
