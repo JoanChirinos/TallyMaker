@@ -53,7 +53,7 @@ def go():
         on += 1
         on %= 8
         btn = btntypes[on]
-        toAdd += '<div class="row"><div class="col"><button type="button" class="btn btn-' + btn + '" onclick="buttonClick("' + i + '")>' + i + '</button>&nbsp;&nbsp;&nbsp;&nbsp;<label id="' + i + '">0</label><div class="space-sm"></div>\n\n\n'
+        toAdd += '<div class="row"><div class="col"><button type="button" class="btn btn-' + btn + """"  onclick="buttonClick(' + i + ');>""" + i + '</button>&nbsp;&nbsp;&nbsp;&nbsp;<label id="' + i + '">0</label><div class="space-sm"></div>\n\n\n'
     print top
     print toAdd
     print bottom
