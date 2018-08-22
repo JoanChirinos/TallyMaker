@@ -50,6 +50,7 @@ def go():
     for i in choices:
         if i == "Next":
             continue
+        i = i.replace(" ", "_")
         on += 1
         on %= 8
         btn = btntypes[on]
