@@ -30,5 +30,5 @@ function enteredChoices() {
 function buttonClick(i) {
     console.log(i);
     var num = parseInt(document.getElementById(i).innerHTML);
-    document.getElementById(i).value = (num + 1);
+    document.getElementById(i).innerHTML = (num + 1);
 }
