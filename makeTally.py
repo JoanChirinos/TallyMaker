@@ -27,7 +27,7 @@ def go():
     </head>
 
     <body>
-        <div class="contaier">
+        <div class="container">
     """
     
     bottom = """
@@ -48,7 +48,7 @@ def go():
         on += 1
         on %= 8
         btn = btntypes[on]
-        toAdd += '<div class="row"><div class="col"><button type="button" class="btn btn-' + btn + '" onclick="buttonClick("' + i + '")>' + i + '</button>&nbsp;&nbsp;&nbsp;&nbsp;<div class="inline-block" id="' + i + '">0</div>\n\n\n'
+        toAdd += '<div class="row"><div class="col"><button type="button" class="btn btn-' + btn + '" onclick="buttonClick("' + i + '")>' + i + '</button>&nbsp;&nbsp;&nbsp;&nbsp;<div class="inline-block" id="' + i + '">0</div><div class="space-sm"></div>\n\n\n'
     print top
     print toAdd
     print bottom
