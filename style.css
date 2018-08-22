@@ -1,3 +1,7 @@
+body {
+    background-image: url(diagonal_striped_brick/diagonal_striped_brick.png);
+}
+
 .space-sm {
     height: 5px;
 }
